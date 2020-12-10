@@ -17,23 +17,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         setContent {
-            MyComposeView()
-        }
-    }
-
-
-    @Composable
-    private fun MyComposeView() {
-        Column(
-            modifier = Modifier.fillMaxWidth().fillMaxHeight(),
-            verticalArrangement = Arrangement.Center,
-            horizontalAlignment = Alignment.CenterHorizontally
-        ) {
-            Text(text = "Hey, compose ui")
-            Spacer(modifier = Modifier.padding(top = 10.dp))
-            Button(onClick = {}) {
-                Text(text = "BUTTON")
-            }
+            Text(
+                modifier = Modifier.padding(16.dp),
+                text = "Hey, compose ui"
+            )
         }
     }
 }
