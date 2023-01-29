@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">compose-playground</string>
+    <string name="label_text_from_resource">This is a sample text from resource</string>
 </resources>
